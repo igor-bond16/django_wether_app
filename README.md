@@ -1,0 +1,1 @@
+# django_wether_app
