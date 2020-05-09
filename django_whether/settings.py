@@ -25,7 +25,10 @@ SECRET_KEY = 'a%($l*xw^4s9$y64*232&mev5)buf-*475s0s_zhcj3=o9bh#y'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['django-wether-app.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['django-wether-app.herokuapp.com','127.0.0.1','localhost']
+
+ALLOWED_HOSTS = ['django-wether-app.herokuapp.com','127.0.0.1','localhost']
+
 
 
 # Application definition
@@ -120,3 +123,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+
