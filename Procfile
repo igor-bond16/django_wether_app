@@ -1,0 +1,1 @@
+web: gunicorn django_whether.wsgi --log-file -
